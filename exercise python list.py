@@ -550,7 +550,7 @@
 # a = smallest_largest_number(list_number)
 # print(a)
 #
-my_list = [0, -26, 15, 1, 23, -64, 23, 76]
+# my_list = [0, -26, 15, 1, 23, -64, 23, 76]
 
 
 # def large_small_number(n: list):
@@ -730,7 +730,7 @@ my_list = [0, -26, 15, 1, 23, -64, 23, 76]
 # a = identification(x)
 # print(a)
 
-# chera har bar yek shomare id midahad
+
 
 
 ##  ###########################
@@ -817,7 +817,6 @@ my_list = [0, -26, 15, 1, 23, -64, 23, 76]
 # print(a)
 
 
-# ???????????????
 
 
 ##  ###########################
@@ -833,7 +832,8 @@ my_list = [0, -26, 15, 1, 23, -64, 23, 76]
 #         new_list.append(item)
 #     return new_list
 
-#  ??????????????????
+
+
 # def multiple_list():
 #     num = 1
 #     odd_list = []
@@ -849,7 +849,7 @@ my_list = [0, -26, 15, 1, 23, -64, 23, 76]
 #
 #
 # print(multiple_list())
-# ??????????????????
+
 
 # l1 = [1, 2, 3, 4, 5]
 # l2 = [2, 3, 4]
@@ -874,42 +874,41 @@ my_list = [0, -26, 15, 1, 23, -64, 23, 76]
 #
 # print(multiple(l1, l2))
 
-# ??????????????????
 
 ##  ###########################
 #  exercise 42 of List
-
-l1 = [10, 20, 30, 40, 50, 60]
-l2 = [30, 40, 60, 70, 80]
-
-
-def num(n, m: list):
-    missing_value_l1 = []
-    missing_value_l2 = []
-    additional_l1 = missing_value_l2
-    additional_l2 = missing_value_l1
-
-    for x in n:
-        for z in m:
-            if x != z and x not in missing_value_l2:
-                missing_value_l2.append(x)
-            elif x != z and z not in missing_value_l1:
-                missing_value_l1.append(z)
-
-    for i in m:
-        for j in missing_value_l2:
-            if j == i:
-                missing_value_l2.remove(j)
-
-    for q in n:
-        for w in missing_value_l1:
-            if q == w:
-                missing_value_l1.remove(w)
-
-    return missing_value_l1, additional_l1, missing_value_l2, additional_l2
-
-
-print(num(l1, l2))
+#
+# l1 = [10, 20, 30, 40, 50, 60]
+# l2 = [30, 40, 60, 70, 80]
+#
+#
+# def num(n, m: list):
+#     missing_value_l1 = []
+#     missing_value_l2 = []
+#     additional_l1 = missing_value_l2
+#     additional_l2 = missing_value_l1
+#
+#     for x in n:
+#         for z in m:
+#             if x != z and x not in missing_value_l2:
+#                 missing_value_l2.append(x)
+#             elif x != z and z not in missing_value_l1:
+#                 missing_value_l1.append(z)
+#
+#     for i in m:
+#         for j in missing_value_l2:
+#             if j == i:
+#                 missing_value_l2.remove(j)
+#
+#     for q in n:
+#         for w in missing_value_l1:
+#             if q == w:
+#                 missing_value_l1.remove(w)
+#
+#     return missing_value_l1, additional_l1, missing_value_l2, additional_l2
+#
+#
+# print(num(l1, l2))
 
 
 ##  ###########################
@@ -939,7 +938,7 @@ print(num(l1, l2))
 #
 # diff_list(my_list)
 
-# ????????????????????? line 933 nemishe dict bezari?  // Aya in ravesh dorosti baraye in soal hast?
+
 
 
 ##  ###########################
@@ -962,15 +961,15 @@ print(num(l1, l2))
 #
 # print(generate_number_group(27))
 
-my_listb = [[(5*x + y) for y in range(1,6)] for x in range(10)]
-print(my_listb)
-my_list = []
-for x in range(10):
-    a = []
-    for y in range(1, 6):
-        a.append((5 * x +y))
-    my_list.append(a)
-print(my_list)
+# my_listb = [[(5*x + y) for y in range(1,6)] for x in range(10)]
+# print(my_listb)
+# my_list = []
+# for x in range(10):
+#     a = []
+#     for y in range(1, 6):
+#         a.append((5 * x +y))
+#     my_list.append(a)
+# print(my_list)
 
 ##  ###########################
 #  exercise 45 of List
@@ -985,3 +984,22 @@ print(my_list)
 #         new_list.append(y)
 # new_set = set(new_list)
 # print(sorted(new_set))
+
+##  ###########################
+#  exercise 46 of List
+
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#
+#
+# def odd_list(n: list) -> list:
+#     new_list = []
+#     for item in n:
+#         if item % 2 != 0:
+#             new_list.append(item)
+#         else:
+#             pass
+#     return new_list
+#
+#
+# a = odd_list(my_list)
+# print(a)
