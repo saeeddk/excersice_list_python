@@ -731,8 +731,6 @@
 # print(a)
 
 
-
-
 ##  ###########################
 #  exercise 37 of List
 
@@ -817,8 +815,6 @@
 # print(a)
 
 
-
-
 ##  ###########################
 #  exercise 41 of List
 
@@ -831,7 +827,6 @@
 #         item *= 2
 #         new_list.append(item)
 #     return new_list
-
 
 
 # def multiple_list():
@@ -939,8 +934,6 @@
 # diff_list(my_list)
 
 
-
-
 ##  ###########################
 #  exercise 44 of List
 
@@ -1002,4 +995,21 @@
 #
 #
 # a = odd_list(my_list)
+# print(a)
+
+##  ###########################
+#  exercise 47 of List
+
+# my_list = [1, 2, 3, 4]
+#
+#
+# def element(n: list):
+#     new_list = []
+#     for item in n:
+#         for x in ('a', item):
+#             new_list.append(x)
+#     return new_list
+#
+#
+# a = element(my_list)
 # print(a)
