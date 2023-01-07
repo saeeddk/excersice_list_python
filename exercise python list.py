@@ -1013,3 +1013,17 @@
 #
 # a = element(my_list)
 # print(a)
+
+
+##  ###########################
+#  exercise 48 of List
+
+# my_list = [[1, 2], ['a', 3], ['qw', 'as']]
+#
+#
+# def nested_list(n: list):
+#     for item in n:
+#         print(item, '\n')
+#
+#
+# nested_list(my_list)
