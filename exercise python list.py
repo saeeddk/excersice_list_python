@@ -1027,3 +1027,19 @@
 #
 #
 # nested_list(my_list)
+
+##  ###########################
+#  exercise 49 of List
+#
+# list_1 = [1, 2, 3, 4]
+# list_2 = ['a', 'b', 'c', 'd']
+#
+#
+# def convert_list_to_dictionary(n, m: list):
+#     my_dict = zip(n, m)
+#     my_dict = dict(my_dict)
+#     return my_dict
+#
+#
+# a = convert_list_to_dictionary(list_1, list_2)
+# print(a)
