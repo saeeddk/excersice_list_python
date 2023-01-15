@@ -1043,3 +1043,18 @@
 #
 # a = convert_list_to_dictionary(list_1, list_2)
 # print(a)
+
+##  ###########################
+#  exercise 50 of List
+
+# my_dict = {'key': {'subkey': 1, 's': 2},
+#            'key1': {'subkey': 10, 's': 7},
+#            'key2': {'subkey': 5, 's': 9}}
+#
+# my_list = sorted(my_dict.items(), key=lambda e: e[1]['subkey'])
+#
+# print(str(my_list))
+# #  or
+# l1 = [2, 3, 4, 5]
+# b = {l1[i]: l1[i + 1] for i in range(0, len(l1), 2)}
+# print(b)
